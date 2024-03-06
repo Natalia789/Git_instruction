@@ -67,6 +67,9 @@ git checkout <Первые символы нужного коммита>
 git checkout master
 ```
 * ## Игнорирование файлов
+It is not customary to add files to Git
+images, they are stored on third-party
+media. In order to exclude certain files or folders from tracking in the repository, you need to create a file .gitignore.
 * ## Создание веток в GIT
 * ## Слияние веток и разрешение конфликтов
 * ## Удаление веток
