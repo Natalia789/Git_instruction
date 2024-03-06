@@ -71,5 +71,14 @@ It is not customary to add files to Git
 images, they are stored on third-party
 media. In order to exclude certain files or folders from tracking in the repository, you need to create a file .gitignore.
 * ## Создание веток в GIT
+По умолчанию, имя основной ветки *"Master"* или *"Main"*. Чтобы создать ветку для параллельной работы в ней, нужно ввести комманду
+```
+git branch <Имя новой ветки>
+```
+Чтобы перемещаться между ветками используем комманду
+```
+git checkuot <имя ветки>
+```
+Дополнительные ветки - это черновики, в которых можно редактировать введеную информацию перед тем, как перенести ее на главную ветку.
 * ## Слияние веток и разрешение конфликтов
 * ## Удаление веток
