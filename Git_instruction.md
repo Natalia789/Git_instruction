@@ -75,5 +75,13 @@ git checkout master
 ```
 и записать в него их названия или шаблоны, соответствующие им.
 * ## Создание веток в GIT
+By default, the master branch name is *"Master"* or *"Main"*. To create a branch for parallel work in it, you need to enter the command
+```
+git branch <New branch name>
+```
+To move between branches use the command
+```
+git checkuot <branch name>
+```
 * ## Слияние веток и разрешение конфликтов
 * ## Удаление веток
